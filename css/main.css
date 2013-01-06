@@ -343,38 +343,62 @@ font-family: 'Proxima';
 /* Description */
 
 /* Navigation */
+.navbar-inner {
+    background-color: #FFFFFF;
+    background-image: none;
+    border: 1px solid #D4D4D4;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.067);
+    min-height: 40px;
+    padding: 20px 20px;
+}
+.navbar-fixed-top {
+    opacity: 0.98;
+    top: 0;
+}
+.navbar .nav > li > a {
+    color: #777777;
+    float: none;
+    margin: 0 5px;
+    padding: 8px 10px;
+}
 
-
-
+/* Indicator */
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
+    background-color: #FFFFFF;
+    border-bottom: 4px solid #F6A600;
+    color: #555555;
+    box-shadow: none;
+    text-decoration: none;
+}
 
 
 /* ==========================================================================
    6. CONTENT
    ========================================================================== */
-        
+   
 @media (min-width: 980px) {	
-body {
-	padding-top: 80px;
-	}
-}
+body { padding-top: 80px; } 
+}  
+/* * Enable this when fixed top menu is in use. */
         
 #main-content { padding-bottom: 60px; }
 section { padding: 14px 0; }
  
 /* Hero Unit */  
 .hero-unit {
-    background: #006699;
-    border-radius: 6px 6px 6px 6px;
+    background-color: #37A3D6;
+    border-radius: 0 0 0 0;
+    box-shadow: 0 0 30px #1C6BBE inset;
     color: #FFFFFF;
     font-size: 18px;
     font-weight: 200;
-    min-heigh: 200px;
     line-height: 30px;
     margin-bottom: 30px;
-    padding: 180px 60px 160px;
-    text-align: center;
-    text-shadow: 1px 1px 2px #000000;
+    padding: 60px;
+    text-shadow: 1px 2px 4px #666666;
 }
+
 	/* For Retina Display */
 	@media all and (-webkit-min-device-pixel-ratio: 2) {
 	  .hero-unit {
@@ -390,11 +414,13 @@ section { padding: 14px 0; }
    7. FOOTER
    ========================================================================== */
 
-footer { 
-	background: #555;
-	color: #ccc; 
-	height: 140px;
-	}	
+footer {
+    background: none repeat scroll 0 0 #EEEEEE;
+    border-top: 1px solid #DDDDDD;
+    color: #999999;
+    padding: 14px 0 50px;
+}
+	
 	@media (max-width: 767px) {	
 		footer {
 		    margin: -20px;
@@ -402,18 +428,91 @@ footer {
 		} 
 	}
 
+footer a:hover {
+	opacity: 0.6;
+}
+
+
+/* Footer menu */
+#footer_menu {
+    float: left;
+    font-size: 1.125rem;
+    width: 50%;
+}
+#footer_menu_box { 
+	margin: 0 0 0 0; 
+	}
+#footer_menu_box li { 
+	list-style: none; 
+	display: inline-block; 
+	}
+#footer_menu_box li a { 
+	color: #666;
+	text-transform: uppercase; 
+	margin-right: 10px; 
+	}
 
 
 /* Copyright */
+#copyright {
+	float: left;
+	margin: 14px 0;
+}
 
 /* Production */
+#maker {
+    border-left: 1px solid #ccc;
+    float: left;
+    padding-left: 6px;
+    width: 200px;
+    margin: 14px 0 0 6px;
+}
 
 /* Scroll to Top Button */
+#to_top { 
+	width: 200px; 
+	float:right; 
+	text-align: right; 
+	margin: 14px 0;
+	}
+#to_top a {
+	color: #999999;
+}
 
 /* SNS Links */
+#sns_icons { 
+	width: 50%; 
+	float: left; 
+	}
+#sns_icons_box { float: right; }
+#sns_icons_box li {
+     display: inline-block;
+     line-height: 20px;
+     list-style: none outside none;
+     width: 32px; 
+}
+#sns_icons_box li a {
+    color: #666;
+    font-size: 2rem;
+}
 
 
 
+.icon-facebook-sign:hover {
+     color: #355192;
+}
+
+.icon-twitter-sign:hover {
+     color: #3BBDE8;
+}
+
+.icon-vimeo-sign:hover {
+     color: #1AB7EA;
+}
+
+.icon-rss:hover {
+     color: #FFAE5B;
+}
 
    
 
@@ -528,7 +627,7 @@ footer {
 .thumbnails { margin-left: 0; } 
 
 /* Bootstrap Fix Lines on Button (Retina) */
-.btn:hover { background-position:  }
+.btn:hover { background-position: ; }
 
 /* Responsive Google Map */
 .map iframe { width: 100% !important; }
@@ -551,7 +650,59 @@ footer {
 }
 
 
+/* Mobile Only */
+@media (max-device-height: 568px) {
+    html, p, a, #popup_trigger, .modal, .brand strong {
+	font-size: 140%;
+	line-height: 140%;
+	}
+	body {
+	background: none;	
+	}
+	#master-wrap {
+	 padding-top: 20px;
+	}
+	.navbar .nav {
+    margin: 0 10px 0 30px;
+	}	
+	.navbar-fixed-top, .navbar-fixed-bottom {
+    position: absolute;
+	}
+	.modal {
+    left: 20px;
+    margin: auto;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 900px !important;
+	}
+	#contact_form label {
+	font-size: 1rem;
+	}
+	.btn {
+	font-size: 120%;
+	padding: 14px;
+	}
+	.map iframe { height: 580px !important; }
+	.navbar-form {
+	display: none;	
+	}
+	
+#footer_menu, #copyright, #maker, #sns_icons, #sns_icons_box, #to_top {
+     float: none;
+     margin: 14px 0px 0px !important;
+     padding: 0px !important;
+     text-align: center !important;
+     width: 100% !important;
+	}
+	#sns_icons_box li {
+     width: 60px; 
+	}
+	#sns_icons_box li a {
+    font-size: 3rem;
+	}
 
+}
 
 
 
