@@ -25,14 +25,15 @@ When you look into an abyss, the abyss also looks into you.
 		<link rel="apple-touch-icon" href="apple-touch-icon.png">
 
 		<!-- Mobile View -->     
-		<meta name="viewport" content="width=1025"><!-- Responsive Off -->  
-		<!-- <meta name="viewport" content="width=device-width"> Responsive On -->    
+		<!-- <meta name="viewport" content="width=1025"> Responsive Off -->  
+		<meta name="viewport" content="width=device-width"> <!-- Responsive On -->    
 		
 		<!-- Old Browser Support -->
 		<script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 		
 		<!-- Style -->
 		<link rel="stylesheet" href="css/base.css">
+		<link rel="stylesheet" href="css/responsive.css">
         <link rel="stylesheet" href="css/font-awesome.css">
         <link rel="stylesheet" href="css/main.css">
         
@@ -54,7 +55,7 @@ When you look into an abyss, the abyss also looks into you.
                     </a>
                     
                     <!-- Logo -->
-                    <a class="brand" href="#"><strong>STACKS</strong></a>
+                    <a class="brand" href="#"><strong><i class="icon-bolt"></i> STACKS</strong></a>
                     
                     <!-- Navigation -->
                     <nav class="nav-collapse collapse">
@@ -66,23 +67,24 @@ When you look into an abyss, the abyss also looks into you.
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="#">Action</a></li>
-                                    <li><a href="#">Another action</a></li>
-                                    <li><a href="#">Something else here</a></li>
+                                    <li><a href="#">Menu 01</a></li>
+                                    <li><a href="#">Menu 02</a></li>
+                                    <li><a href="#">Menu 03</a></li>
                                     <li class="divider"></li>
-                                    <li class="nav-header">Nav header</li>
-                                    <li><a href="#">Separated link</a></li>
-                                    <li><a href="#">One more separated link</a></li>
+                                    <li class="nav-header">PM Says</li>
+                                    <li><a href="#">Hurry Up</a></li>
+                                    <li><a href="#">Get Your Work Done</a></li>
                                 </ul>
                             </li>
                         </ul>
                         
-                        <!-- Form -->
+                        <!-- Form 
                         <form class="navbar-form pull-right">
                             <input class="span2" type="text" placeholder="Email">
                            
                             <button type="submit" class="btn">Get Newsletters</button>
-                        </form>
+                        </form> -->
+                        
                     </nav><!--/.nav-collapse -->
                 </div>
             </div>
@@ -97,7 +99,7 @@ When you look into an abyss, the abyss also looks into you.
 	            <div class="container">
             	<h1>Hello, world!</h1>
             	<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
-            	<p><a class="btn btn-primary btn-large">Learn more &raquo;</a></p>
+            	<p><a class="btn btn-info btn-large">Learn more &raquo;</a></p>
             	</div>            	
             </section>
 
@@ -154,11 +156,12 @@ When you look into an abyss, the abyss also looks into you.
 					<p>PH: 123-456-7890<br />
 					FAX: 123-456-7890
 					</p>					
-					<p><a class="btn btn-primary">Send Emails &raquo;</a></p>				
+					<p><a class="btn btn-info btn-large">Send Emails &raquo;</a></p>				
 				</div>						
 				
 				<div class="span5 map">			
-				<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=sydney&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=55.455479,114.169922&amp;ie=UTF8&amp;hq=&amp;hnear=Sydney+New+South+Wales,+Australia&amp;t=m&amp;z=10&amp;ll=-33.867487,151.20699&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=sydney&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=55.455479,114.169922&amp;ie=UTF8&amp;hq=&amp;hnear=Sydney+New+South+Wales,+Australia&amp;t=m&amp;z=10&amp;ll=-33.867487,151.20699" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+				<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=sydney&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=55.455479,114.169922&amp;ie=UTF8&amp;hq=&amp;hnear=Sydney+New+South+Wales,+Australia&amp;t=m&amp;z=10&amp;ll=-33.867487,151.20699&amp;output=embed">
+				</iframe>
 					
 				</div>				
 		  </div>
@@ -191,9 +194,13 @@ When you look into an abyss, the abyss also looks into you.
 				</ul>
 			</div>
 
-          <p id="copyright">&copy; <?php echo date("Y") ?> Stacks</p>
-          <p id="maker">Redfrost Design</p>
+		  <div id="copyright_box">
+	          <p id="copyright">&copy; <?php echo date("Y") ?> Stacks</p>
+	          <p id="maker">Redfrost Design</p>
+      	  </div>
+          
           <p id="to_top"><a href="#"><i class="icon-arrow-up"></i> Back To Top</a></p>
+          
           </section>
         </footer><!-- /#footer -->
         

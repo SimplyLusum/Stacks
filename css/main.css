@@ -210,7 +210,7 @@ h6 { font-size: 12px; font-size: 0.75rem; font-weight: bold; }
 p  {
     font-size: 16px; font-size: 1rem;
     line-height:;
-    margin-bottom: 1.2rem;
+    margin-bottom: 20px; margin-bottom: 1.25rem;
     vertical-align: bottom;
     word-break: normal;
     word-wrap: break-word;
@@ -341,7 +341,7 @@ font-family: 'Proxima';
 /* Logo */
 .navbar .brand {
     color: #666666;
-    font-size: 2rem;
+    font-size: 32px; font-size: 2rem;
     font-weight: 200;
     text-shadow: 0 1px 0 #FFFFFF;
 }
@@ -374,7 +374,7 @@ font-family: 'Proxima';
 }
 .nav > li > a {
     display: block;
-    font-size: 1.06rem;
+    font-size: 17px; font-size: 1.06rem;
 }
 
 /* Indicator */
@@ -398,6 +398,43 @@ body { padding-top: 80px; }
         
 #main-content { padding-bottom: 60px; }
 section { padding: 14px 0; }
+
+.byline { 
+	font-size: 24px; font-size: 1.5rem; 
+	color: #999; 
+	font-weight: 100; 
+	}
+	
+h2 {
+    color: #000000;
+}
+#contact h2, #about h2 {
+    font-size: 48px; font-size: 3rem;
+    font-weight: 300;
+}
+
+
+#services h2 {
+    font-size: 30px; font-size: 1.88rem;
+    font-weight: 100;
+}
+
+
+#about .icon-ok:before {
+    color: #89C01B;
+}
+
+.tick_box {
+    margin: 0 0 20px;
+    padding: 0;
+}
+.tick_box li {
+	list-style: none;
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 2rem;
+}
+
  
 /* Hero Unit */  
 .hero-unit {
@@ -450,7 +487,7 @@ footer a:hover {
 /* Footer menu */
 #footer_menu {
     float: left;
-    font-size: 1.125rem;
+    font-size: 18px; font-size: 1.125rem;
     width: 50%;
 }
 #footer_menu_box { 
@@ -507,7 +544,7 @@ footer a:hover {
 }
 #sns_icons_box li a {
     color: #666;
-    font-size: 2rem;
+    font-size: 32px; font-size: 2rem;
 }
 
 
@@ -551,6 +588,15 @@ footer a:hover {
 /* =============================================================================
    10. FORMS
    ============================================================================= */
+#contact_form textarea {
+     width: 90%;
+}
+
+#contact_form li {
+     list-style: none outside none;
+}
+
+
 
 
 
@@ -563,8 +609,8 @@ footer a:hover {
 
 /* TOOLTIP */
 .tooltip {
-  font-size: 0.94rem;
-  line-height: 1.2rem;
+  font-size: 15px; font-size: 0.94rem;
+  line-height: 20px; line-height: 1.25rem;
 }
 
 .tooltip-inner { /* space inside tooltip */
@@ -691,7 +737,7 @@ footer a:hover {
     width: 900px !important;
 	}
 	#contact_form label {
-	font-size: 1rem;
+	font-size: 16px; font-size: 1rem;
 	}
 	.btn {
 	font-size: 120%;
@@ -713,7 +759,7 @@ footer a:hover {
      width: 60px; 
 	}
 	#sns_icons_box li a {
-    font-size: 3rem;
+     font-size: 48px; font-size: 3rem;
 	}
 
 }
