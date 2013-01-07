@@ -339,6 +339,12 @@ font-family: 'Proxima';
    5. HEADER
    ========================================================================== */
 /* Logo */
+.navbar .brand {
+    color: #666666;
+    font-size: 2rem;
+    font-weight: 200;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
 
 /* Description */
 
@@ -361,6 +367,14 @@ font-family: 'Proxima';
     float: none;
     margin: 0 5px;
     padding: 8px 10px;
+}
+
+.navbar .nav {
+    float: right;
+}
+.nav > li > a {
+    display: block;
+    font-size: 1.06rem;
 }
 
 /* Indicator */
