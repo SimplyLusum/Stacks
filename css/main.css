@@ -804,6 +804,10 @@ footer a:hover {
 }
 
 
-
-
+/* Copyright box */
+#footer_menu_box .popover { width: 400px !important; }
+#footer_menu_box .popover-content {
+    font-size: 0.63rem;
+    line-height: 1rem;
+}
 
