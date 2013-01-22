@@ -1,3 +1,13 @@
+### 1.2.1: 22-Jan-2013
+* Fixed Responsive body min-width issue
+* Body class: static / responsive
+* Assets folder (css, font, img, js)
+* main.js renamed -> custom.js
+* Vendor js folder is removed
+* Custom testing font is now removed
+* Removed unused CSS
+
+
 ### 1.2: 18-Jan-2013
 * Div background cuf-off issue: solved (body min-width)
 * Responsive Layout support
