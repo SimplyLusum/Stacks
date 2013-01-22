@@ -29,17 +29,17 @@ When you look into an abyss, the abyss also looks into you.
 		<!-- <meta name="viewport" content="width=device-width"> Responsive On -->    
 		
 		<!-- Old Browser Support -->
-		<script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+		<script src="assets/js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 		
 		<!-- Style -->
-		<link rel="stylesheet" href="css/base.css">
-        <link rel="stylesheet" href="css/font-awesome.css">
-        <link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="assets/css/base.css">
+        <link rel="stylesheet" href="assets/css/font-awesome.css">
+        <link rel="stylesheet" href="assets/css/main.css">
         
     </head>
 
     
-	<body id="home" class="korean" data-spy="scroll">
+	<body id="home" class="static korean" data-spy="scroll">
 
 	<div id="master-wrap">
 	
@@ -128,7 +128,7 @@ When you look into an abyss, the abyss also looks into you.
 					
 					
 					<a href="#">유저 갤러리 &raquo;</a></div>
-				<div class="span5"><img src="img/image_01.jpg" alt="" /></div>							
+				<div class="span5"><img src="assets/img/image_01.jpg" alt="" /></div>							
 			</div>
 			</section>
 			
@@ -145,13 +145,13 @@ When you look into an abyss, the abyss also looks into you.
                     <p><a class="btn" href="#">더보기 &raquo;</a></p>
                 </div>
                 <div class="span4">
-	                <img src="img/image_03.jpg" alt="" />
+	                <img src="assets/img/image_03.jpg" alt="" />
                     <h2>창조적인 생각들</h2>
                     <p>차라투스트라는 성자가 떠나자 마음속으로 말했다. "이럴 수 있단 말인가! 저 늙은 성자는 숲 속에서 살아서 신이 죽었다는 말을 아직 듣지 못했구나!</p>
                     <p><a class="btn" href="#">더보기 &raquo;</a></p>
                </div>
                 <div class="span4">
-	                <img src="img/image_04.jpg" alt="" />
+	                <img src="assets/img/image_04.jpg" alt="" />
                     <h2>열정에 찬 행동</h2>
                     <p>차라투스트라는 성자가 떠나자 마음속으로 말했다. "이럴 수 있단 말인가! 저 늙은 성자는 숲 속에서 살아서 신이 죽었다는 말을 아직 듣지 못했구나!</p>
                     <p><a class="btn" href="#">더보기 &raquo;</a></p>
@@ -257,7 +257,7 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 				<div id="contact_form" class="ltr">
 				
 				<form id="form1" name="form1" class="wufoo topLabel page" autocomplete="off" enctype="multipart/form-data" method="post" novalidate
-				action="https://simonalex.wufoo.com/forms/z7x3x5/#public">
+				action="#">
 				
 					<ul>			
 						<li id="foli5" class="notranslate">
@@ -280,7 +280,7 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 						<li class="hide">
 						<label for="comment">Do Not Fill This Out</label>
 						<textarea name="comment" id="comment" rows="1" cols="1"></textarea>
-						<input type="hidden" id="idstamp" name="idstamp" value="2K4l2NUNrKXsGwMdJkS37DEWU57UC2YJH05gY+V50og=" />
+						<input type="hidden" id="idstamp" name="idstamp" value="#" />
 						</li>			
 					</ul>
 				</form> 
@@ -293,11 +293,11 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 	
 		<!-- Scripts -->
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.3.min.js"><\/script>')</script>
-        <script src="js/vendor/script.js"></script>
-        <script src="js/main.js"></script>
-        <script src="js/smooth-scroll.min.js"></script><!-- Smooth Scroll -->
-		<script src="js/wufoo.js"></script><!-- Form control -->        
+        <script>window.jQuery || document.write('<script src="assets/js/jquery-1.8.3.min.js"><\/script>')</script>
+        <script src="assets/js/script.js"></script>
+        <script src="assets/js/custom.js"></script>
+        <script src="assets/js/smooth-scroll.min.js"></script><!-- Smooth Scroll -->
+		<script src="assets/js/wufoo.js"></script><!-- Form control -->        
         
 
 		<!-- Analytics -->

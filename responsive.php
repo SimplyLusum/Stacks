@@ -29,13 +29,13 @@ When you look into an abyss, the abyss also looks into you.
 		<meta name="viewport" content="width=device-width"> <!-- Responsive On -->    
 		
 		<!-- Old Browser Support -->
-		<script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+		<script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 		
 		<!-- Style -->
-		<link rel="stylesheet" href="css/base.css">
-		<link rel="stylesheet" href="css/responsive.css">
-        <link rel="stylesheet" href="css/font-awesome.css">
-        <link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="assets/css/base.css">
+		<link rel="stylesheet" href="assets/css/responsive.css">
+        <link rel="stylesheet" href="assets/css/font-awesome.css">
+        <link rel="stylesheet" href="assets/css/main.css">
         
     </head>
 
@@ -125,7 +125,7 @@ When you look into an abyss, the abyss also looks into you.
 					
 					
 					<a href="#">View Gallery &raquo;</a></div>
-				<div class="span5"><img src="img/image_01.jpg" alt="" /></div>							
+				<div class="span5"><img src="assets/img/image_01.jpg" alt="" /></div>							
 			</div>
 			</section>
 			
@@ -136,19 +136,19 @@ When you look into an abyss, the abyss also looks into you.
             <section id="services">
 			<div class="row-fluid">            
                 <div class="span4">
-                    <img src="img/image_02.jpg" alt="" />
+                    <img src="assets/img/image_02.jpg" alt="" />
                     <h2>Inspirational Word</h2>
                     <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum.</p>
                     <p><a class="btn" href="#">View details &raquo;</a></p>
                 </div>
                 <div class="span4">
-	                <img src="img/image_03.jpg" alt="" />
+	                <img src="assets/img/image_03.jpg" alt="" />
                     <h2>Creative Thinking</h2>
                     <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum.</p>
                     <p><a class="btn" href="#">View details &raquo;</a></p>
                </div>
                 <div class="span4">
-	                <img src="img/image_04.jpg" alt="" />
+	                <img src="assets/img/image_04.jpg" alt="" />
                     <h2>Passionate Action</h2>
                     <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum.</p>
                     <p><a class="btn" href="#">View details &raquo;</a></p>
@@ -258,7 +258,7 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 				<div id="contact_form" class="ltr">
 				
 				<form id="form1" name="form1" class="wufoo topLabel page" autocomplete="off" enctype="multipart/form-data" method="post" novalidate
-				action="https://simonalex.wufoo.com/forms/z7x3x5/#public">
+				action="#">
 				
 					<ul>			
 						<li id="foli5" class="notranslate">
@@ -281,7 +281,7 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 						<li class="hide">
 						<label for="comment">Do Not Fill This Out</label>
 						<textarea name="comment" id="comment" rows="1" cols="1"></textarea>
-						<input type="hidden" id="idstamp" name="idstamp" value="2K4l2NUNrKXsGwMdJkS37DEWU57UC2YJH05gY+V50og=" />
+						<input type="hidden" id="idstamp" name="idstamp" value="#" />
 						</li>			
 					</ul>
 				</form> 
@@ -294,11 +294,11 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 	
 		<!-- Scripts -->
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.3.min.js"><\/script>')</script>
-        <script src="js/vendor/script.js"></script>
-        <script src="js/main.js"></script>
-        <script src="js/smooth-scroll.min.js"></script><!-- Smooth Scroll -->
-		<script src="js/wufoo.js"></script><!-- Form control -->  
+        <script>window.jQuery || document.write('<script src="assets/js/jquery-1.8.3.min.js"><\/script>')</script>
+        <script src="assets/js/script.js"></script>
+        <script src="assets/js/custom.js"></script>
+        <script src="assets/js/smooth-scroll.min.js"></script><!-- Smooth Scroll -->
+		<script src="assets/js/wufoo.js"></script><!-- Form control -->  
         
 
 		<!-- Analytics -->

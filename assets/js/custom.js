@@ -30,6 +30,8 @@ $('[data-spy="scroll"]').scrollspy({ offset: 100 });
 		});
 		var $ = jQuery.noConflict();
 		
-		
+
+
+// Add your own		
 		
 		
