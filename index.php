@@ -1,9 +1,3 @@
-<!--
-|~)[~|~\|~|~)/~\(~~|~
-|~\[_|_/|~|~\\_/_) | 
-When you look into an abyss, the abyss also looks into you. 
--->   
-
 <!DOCTYPE HTML>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -12,6 +6,13 @@ When you look into an abyss, the abyss also looks into you.
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<!--
+|~)[~|~\|~|~)/~\(~~|~
+|~\[_|_/|~|~\\_/_) | 
+When you look into an abyss, the abyss also looks into you. 
+-->   
+
         
     	<!-- Site info -->      
         <title>Stacks</title>
@@ -21,20 +22,21 @@ When you look into an abyss, the abyss also looks into you.
 		<meta name="keywords" content="">       
 
 		<!-- Icons -->
-		<link rel="shortcut icon" href="favicon.ico">
-		<link rel="apple-touch-icon" href="apple-touch-icon.png">
+		<link rel="shortcut icon" href="img/favicon.ico">
+		<!-- <link rel="apple-touch-icon" href="apple-touch-icon.png"> Gloss -->
+		<link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon.png"> <!-- Matt -->
 
 		<!-- Mobile View -->     
 		<meta name="viewport" content="width=1024"><!-- Responsive Off -->  
 		<!-- <meta name="viewport" content="width=device-width"> Responsive On -->    
 		
 		<!-- Old Browser Support -->
-		<script src="assets/js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+		<script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 		
 		<!-- Style -->
-		<link rel="stylesheet" href="assets/css/base.css">
-        <link rel="stylesheet" href="assets/css/font-awesome.css">
-        <link rel="stylesheet" href="assets/css/main.css">
+		<link rel="stylesheet" href="css/base.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/font-awesome.css">
         
     </head>
 
@@ -124,7 +126,7 @@ When you look into an abyss, the abyss also looks into you.
 					
 					
 					<a href="#">View Gallery &raquo;</a></div>
-				<div class="span5"><img src="assets/img/image_01.jpg" alt="" /></div>							
+				<div class="span5"><img src="img/image_01.jpg" alt="" /></div>							
 			</div>
 			</section>
 			
@@ -135,19 +137,19 @@ When you look into an abyss, the abyss also looks into you.
             <section id="services">
 			<div class="row-fluid">            
                 <div class="span4">
-                    <img src="assets/img/image_02.jpg" alt="" />
+                    <img src="img/image_02.jpg" alt="" />
                     <h2>Inspirational Word</h2>
                     <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum.</p>
                     <p><a class="btn" href="#">View details &raquo;</a></p>
                 </div>
                 <div class="span4">
-	                <img src="assets/img/image_03.jpg" alt="" />
+	                <img src="img/image_03.jpg" alt="" />
                     <h2>Creative Thinking</h2>
                     <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum.</p>
                     <p><a class="btn" href="#">View details &raquo;</a></p>
                </div>
                 <div class="span4">
-	                <img src="assets/img/image_04.jpg" alt="" />
+	                <img src="img/image_04.jpg" alt="" />
                     <h2>Passionate Action</h2>
                     <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum.</p>
                     <p><a class="btn" href="#">View details &raquo;</a></p>
@@ -293,11 +295,11 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 	
 		<!-- Scripts -->
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="assets/js/jquery-1.8.3.min.js"><\/script>')</script>
-        <script src="assets/js/script.js"></script>
-        <script src="assets/js/custom.js"></script>
-        <script src="assets/js/smooth-scroll.min.js"></script><!-- Smooth Scroll -->
-        <script src="assets/js/wufoo.js"></script><!-- Form control -->
+        <script>window.jQuery || document.write('<script src="js/jquery-1.8.3.min.js"><\/script>')</script>
+        <script src="js/script.js"></script>
+        <script src="js/custom.js"></script>
+        <script src="js/smooth-scroll.min.js"></script><!-- Smooth Scroll -->
+        <script src="js/wufoo.js"></script><!-- Form control -->
         
 
 		<!-- Analytics -->
