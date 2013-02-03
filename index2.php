@@ -1,3 +1,9 @@
+<!--
+|~)[~|~\|~|~)/~\(~~|~
+|~\[_|_/|~|~\\_/_) | 
+When you look into an abyss, the abyss also looks into you. 
+-->   
+
 <!DOCTYPE HTML>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -6,15 +12,8 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-
-<!--
-|~)[~|~\|~|~)/~\(~~|~
-|~\[_|_/|~|~\\_/_) | 
-When you look into an abyss, the abyss also looks into you. 
--->   
-
         
-    	<!-- Site info -->    
+    	<!-- Site info -->      
         <title>Stacks</title>
         <meta name="description" content="">
         <meta name="author" content="">
@@ -22,20 +21,20 @@ When you look into an abyss, the abyss also looks into you.
 		<meta name="keywords" content="">       
 
 		<!-- Icons -->
-		<link rel="shortcut icon" href="img/favicon.ico">
-		<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="apple-touch-icon" href="apple-touch-icon.png">
 
 		<!-- Mobile View -->     
 		<meta name="viewport" content="width=1024"><!-- Responsive Off -->  
 		<!-- <meta name="viewport" content="width=device-width"> Responsive On -->    
 		
 		<!-- Old Browser Support -->
-		<script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+		<script src="assets/js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 		
 		<!-- Style -->
-		<link rel="stylesheet" href="css/base.css">
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/font-awesome.css">
+		<link rel="stylesheet" href="assets/css/base.css">
+        <link rel="stylesheet" href="assets/css/font-awesome.css">
+        <link rel="stylesheet" href="assets/css/main.css">
         
     </head>
 
@@ -129,7 +128,7 @@ When you look into an abyss, the abyss also looks into you.
 					
 					
 					<a href="#">유저 갤러리 &raquo;</a></div>
-				<div class="span5"><img src="img/image_01.jpg" alt="" /></div>							
+				<div class="span5"><img src="assets/img/image_01.jpg" alt="" /></div>							
 			</div>
 			</section>
 			
@@ -146,13 +145,13 @@ When you look into an abyss, the abyss also looks into you.
                     <p><a class="btn" href="#">더보기 &raquo;</a></p>
                 </div>
                 <div class="span4">
-	                <img src="img/image_03.jpg" alt="" />
+	                <img src="assets/img/image_03.jpg" alt="" />
                     <h2>창조적인 생각들</h2>
                     <p>차라투스트라는 성자가 떠나자 마음속으로 말했다. "이럴 수 있단 말인가! 저 늙은 성자는 숲 속에서 살아서 신이 죽었다는 말을 아직 듣지 못했구나!</p>
                     <p><a class="btn" href="#">더보기 &raquo;</a></p>
                </div>
                 <div class="span4">
-	                <img src="img/image_04.jpg" alt="" />
+	                <img src="assets/img/image_04.jpg" alt="" />
                     <h2>열정에 찬 행동</h2>
                     <p>차라투스트라는 성자가 떠나자 마음속으로 말했다. "이럴 수 있단 말인가! 저 늙은 성자는 숲 속에서 살아서 신이 죽었다는 말을 아직 듣지 못했구나!</p>
                     <p><a class="btn" href="#">더보기 &raquo;</a></p>
@@ -294,11 +293,11 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 	
 		<!-- Scripts -->
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/jquery-1.8.3.min.js"><\/script>')</script>
-        <script src="js/script.js"></script>
-        <script src="js/custom.js"></script>
-        <script src="js/smooth-scroll.min.js"></script><!-- Smooth Scroll -->
-		<script src="js/wufoo.js"></script><!-- Form control -->        
+        <script>window.jQuery || document.write('<script src="assets/js/jquery-1.8.3.min.js"><\/script>')</script>
+        <script src="assets/js/script.js"></script>
+        <script src="assets/js/custom.js"></script>
+        <script src="assets/js/smooth-scroll.min.js"></script><!-- Smooth Scroll -->
+		<script src="assets/js/wufoo.js"></script><!-- Form control -->        
         
 
 		<!-- Analytics -->
