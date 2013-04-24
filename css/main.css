@@ -204,13 +204,13 @@ body, p, h1, h2, h3, h4, h5, h6, .btn, .navbar, .brand {
 body { font-size: 18px; font-size: 1.13rem; }
 h1 { font-size: 38px; font-size: 2.38rem; font-weight: bold; }
 h2 { font-size: 32px; font-size: 2.00rem; font-weight: bold; }
-h3 { font-size: 20px; font-size: 1.25rem; font-weight: bold; }
-h4 { font-size: 16px; font-size: 1.00rem; font-weight: bold; }
+h3 { font-size: 24px; font-size: 1.5rem; font-weight: bold; }
+h4 { font-size: 18px; font-size: 1.13rem; font-weight: bold; }
 h5 { font-size: 14px; font-size: 0.88rem; font-weight: normal; color: #888; }
 h6 { font-size: 12px; font-size: 0.75rem; font-weight: normal; color: #888; }
 p  {
-    font-size: 18px; font-size: 1.13rem;
-    line-height:1.5rem;
+    font-size: 16px; font-size: 1rem;
+    line-height:24rem;line-height:1.5rem;
     margin-bottom: 20px; margin-bottom: 1.25rem;
     vertical-align: bottom;
     word-break: normal;
@@ -402,7 +402,7 @@ section { padding: 14px 0; }
     color: #999999;
     font-size: 24px !important; font-size: 1.5rem !important;
     font-weight: 100;
-    margin: -8px 0 20px;
+    margin: 0px 0 20px;
 }
 
 body { color: #666; }	
@@ -454,7 +454,7 @@ h2, h3, h4 { color: #000000; }
     border-radius: 0 0 0 0;
     box-shadow: 0 0 30px #1C6BBE inset;
     color: #FFFFFF;
-    font-weight: 200;
+    font-weight:;
     line-height: 30px;
     margin-bottom: 30px;
     padding: 60px 0;
@@ -478,6 +478,12 @@ h2, h3, h4 { color: #000000; }
 .hero-unit p {
 	font-size: 20px; font-size: 1.25rem;
 }
+
+.hero-unit p {
+    font-size: 22px;font-size: 1.38rem;
+    font-weight: normal;
+    line-height: 26px;line-height: 1.63rem;
+}   
    
    
 /* ==========================================================================
@@ -496,6 +502,10 @@ footer {
 		    margin: -20px;
 		    padding: 20px;
 		} 
+		
+		#footer_menu_box li a { 
+	        margin-right: 0px !; 
+	    }
 	}
 
 footer a:hover {

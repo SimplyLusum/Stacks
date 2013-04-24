@@ -1,3 +1,10 @@
+### 1.2.2: 24-April-2013
+* Font-Awsome update 3.0.2
+* Bootstrap update 2.3.1
+* Responsive layout fix
+* Footer menu margin fix
+
+
 ### 1.2.1: 22-Jan-2013
 * Fixed Responsive body min-width issue
 * Body class: static / responsive

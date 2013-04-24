@@ -1,9 +1,3 @@
-<!DOCTYPE HTML>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-
     <?php include("section/head.php"); ?>
 
 	<body id="home" class="static" data-spy="scroll">
@@ -11,17 +5,28 @@
 	<div id="master-wrap">
 	
 		<!-- Header -->
-        <?php include("section/header.php"); ?>
+       		<?php include("section/header.php"); ?>
 
 
 		<!-- Content -->
+
 		
-			<!-- Main hero unit for a primary marketing message or call to action -->
-            <?php include("section/hero.php"); ?>
+		<!-- Main hero unit for a primary marketing message or call to action -->
+      	        <section class="hero-unit jumbotron masthead">
+            	<div class="container">           
+			      <div class="row-fluid"> 
+			        <div class="span12">  
+	            	<h1>Hello, world!</h1>
+	            	<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Aenean eu leo quam.</p>
+	            	<p><a class="btn btn-info btn-large">Learn more &raquo;</a></p>
+	            	</div>    
+            	  </div>     
+            	</div>    	
+                </section>
 
 
 
-        <div id="main-content" class="container">
+ 	       <div id="main-content" class="container">
 			<section id="about">
 			<div class="row-fluid">
 				<div class="span7"><h2>Simple &amp; Intuitive Design</h2>
@@ -105,40 +110,9 @@
 		  </div>
 		  </section>
 
-        </div> <!-- /#main-content-->   
+	        </div> <!-- /#main-content-->   
         
         
         <!-- Footer -->
         <?php include("section/footer.php"); ?>
         
-        
-	</div><!-- /#master-wrap-->
-	
-	
-	    <!-- Modal Popup Contact Form - Replace this with your own form -->
-	    <?php include("section/contact-form.php"); ?>
-
-	
-	
-		<!-- Scripts -->
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/jquery-1.8.3.min.js"><\/script>')</script>
-        <script src="js/script.js"></script>
-        <script src="js/custom.js"></script>
-        <script src="js/smooth-scroll.min.js"></script><!-- Smooth Scroll -->
-        <script src="js/wufoo.js"></script><!-- Form control -->
-        
-
-		<!-- Analytics -->
-        <script>
-          var _gaq=[['_setAccount','<?php echo GOOGLE_ANALYTICS_ID; ?>'],['_trackPageview']];
-          (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-            s.parentNode.insertBefore(g,s)}(document,'script'));
-        </script>
-        
-    </body>
-
-
-
-</html>

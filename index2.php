@@ -1,94 +1,10 @@
-<!DOCTYPE HTML>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-
-<!--
-|~)[~|~\|~|~)/~\(~~|~
-|~\[_|_/|~|~\\_/_) | 
-When you look into an abyss, the abyss also looks into you. 
--->   
-
-        
-    	<!-- Site info -->    
-        <title>Stacks</title>
-        <meta name="description" content="">
-        <meta name="author" content="">
-		<meta name="publisher" content=""/>
-		<meta name="keywords" content="">       
-
-		<!-- Icons -->
-		<link rel="shortcut icon" href="img/favicon.ico">
-		<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
-
-		<!-- Mobile View -->     
-		<meta name="viewport" content="width=1024"><!-- Responsive Off -->  
-		<!-- <meta name="viewport" content="width=device-width"> Responsive On -->    
-		
-		<!-- Old Browser Support -->
-		<script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-		
-		<!-- Style -->
-		<link rel="stylesheet" href="css/base.css">
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/font-awesome.css">
-        
-    </head>
-
-    
+    <?php include("section/head.php"); ?>
 	<body id="home" class="static korean" data-spy="scroll">
 
 	<div id="master-wrap">
 	
-		<!-- Header -->
-        <header class="navbar navbar-fixed-top">
-            <div class="navbar-inner">
-                <div class="container">
-                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </a>
-                    
-                    <!-- Logo -->
-                    <a class="brand" href="#"><strong><i class="icon-bolt"></i> STACKS</strong></a>
-                    
-                    <!-- Navigation -->
-                    <nav class="nav-collapse collapse">
-                        <ul class="nav">
-	                        <li class="active"><a href="#home">홈</a></li>
-                            <li><a href="#about">소개</a></li>
-                            <li><a href="#services">서비스</a></li>
-                            <li><a href="#contact">연락 정보</a></li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">메뉴 더보기 <b class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="#">추가 메뉴 01</a></li>
-                                    <li><a href="#">추가 메뉴 02</a></li>
-                                    <li><a href="#">추가 메뉴 03</a></li>
-                                    <li class="divider"></li>
-                                    <li class="nav-header">공지사항</li>
-                                    <li><a href="#">개발 일정 &amp; 로드맵</a></li>
-                                    <li><a href="#">체인지 로그</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                        
-                        <!-- Form 
-                        <form class="navbar-form pull-right">
-                            <input class="span2" type="text" placeholder="Email">
-                           
-                            <button type="submit" class="btn">Get Newsletters</button>
-                        </form> -->
-                        
-                    </nav><!--/.nav-collapse -->
-                </div>
-            </div>
-        </header><!-- /.navbar -->
+	<!-- Header -->
+        	<?php include("section/header.php"); ?>
 
 
 		<!-- Content -->
@@ -247,48 +163,8 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 	
 	
 	
-			<!-- Modal Popup: Contact Form | You must replace this section with your own form. -->
-			<div id="popup" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-		  
-				  <div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-					<h3 id="myModalLabel">메세지 보내기</h3>
-				  </div>
-										  							  
-				<div id="contact_form" class="ltr">
-				
-				<form id="form1" name="form1" class="wufoo topLabel page" autocomplete="off" enctype="multipart/form-data" method="post" novalidate
-				action="#">
-				
-					<ul>			
-						<li id="foli5" class="notranslate">
-						<label class="desc" id="title5" for="Field5">이름<span id="req_5" class="req">*</span></label>
-						<span><input id="Field5" name="Field5" type="text" class="field text fn" value="이름" size="8" tabindex="1" required /></span>
-						<span><input id="Field6" name="Field6" type="text" class="field text ln" value="성" size="14" tabindex="2" required /></span>
-						</li>
-						
-						<li id="foli7" class="notranslate"><label class="desc" id="title7" for="Field7">이메일
-						<span id="req_7" class="req">*</span></label>
-						<div><input id="Field7" name="Field7" type="email" spellcheck="false" class="field text medium" value="" maxlength="255" tabindex="3" required /></div></li>
-						
-						<li id="foli4" class="notranslate"><label class="desc" id="title4" for="Field4">제목</label>
-						<div><input id="Field4" name="Field4" type="text" class="field text medium" value="" maxlength="255" tabindex="4" onkeyup="" /></div></li>
-						<li id="foli8" class="notranslate"><label class="desc" id="title8" for="Field8">메세지</label>
-						
-						<div><textarea id="Field8" name="Field8" class="field textarea medium" spellcheck="true" rows="10" cols="50" tabindex="5" onkeyup="" ></textarea></div></li> 
-						<input id="saveForm" name="saveForm" class="btn btn-large btn-info btTxt submit" type="submit" value="이메일 보내기 »" />
-						
-						<li class="hide">
-						<label for="comment">Do Not Fill This Out</label>
-						<textarea name="comment" id="comment" rows="1" cols="1"></textarea>
-						<input type="hidden" id="idstamp" name="idstamp" value="#" />
-						</li>			
-					</ul>
-				</form> 
-				
-				</div><!-- /#contact_form -->
-			
-			</div><!-- /#popup -->
+	    <!-- Modal Popup Contact Form - Replace this with your own form -->
+	    <?php include("section/contact-form.php"); ?>
 			
 	
 	
