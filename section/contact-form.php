@@ -1,14 +1,10 @@
-			<div id="popup" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-		  
-				  <div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-					<h3 id="myModalLabel">Contact Us</h3>
-				  </div>
-										  							  
-				<div id="contact_form" class="ltr">
+                <div id="contact_form" class="ltr">
+
+ 				<hr>
+                <h3>Contact Us</h3>
 				
 				<form id="form1" name="form1" class="wufoo topLabel page" autocomplete="off" enctype="multipart/form-data" method="post" novalidate
-				action="#">
+				action="<?php echo WUFOO_LINK; ?>">
 				
 					<ul>			
 						<li id="foli5" class="notranslate">
@@ -31,12 +27,12 @@
 						<li class="hide">
 						<label for="comment">Do Not Fill This Out</label>
 						<textarea name="comment" id="comment" rows="1" cols="1"></textarea>
-						<input type="hidden" id="idstamp" name="idstamp" value="#" />
+						<input type="hidden" id="idstamp" name="idstamp" value="<?php echo WUFOO_STAMP; ?>" />
 						</li>			
 					</ul>
 				</form> 
 				
+				<hr>
 				</div><!-- /#contact_form -->
-			
-			</div><!-- /#popup -->
+
 			

@@ -1,10 +1,11 @@
+    <?php include("config.php"); ?>
     <?php include("section/head.php"); ?>
-	<body id="home" class="static korean" data-spy="scroll">
+    <body id="home" class="<?=$Layoutstyle?> korean" data-spy="scroll">
 
 	<div id="master-wrap">
 	
-	<!-- Header -->
-        	<?php include("section/header.php"); ?>
+		<!-- Header -->
+       		<?php include("section/header.php"); ?>
 
 
 		<!-- Content -->
@@ -117,73 +118,4 @@
         
         
         <!-- Footer -->
-        <footer id="footer">          
-          <section class="container">
-
-	  		<!-- Footer menu -->
-	  		<div id="footer_menu">
-      			<ul id="footer_menu_box">
-      			  	<li><a href="https://github.com/redfrost/Stacks">다운로드</a></li>
-                    <li><a onmouseover="this.style.cursor='pointer'" rel="popover" data-placement="top" data-content="Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE." title="Copyright &copy; 2013 Redfrost">라이센스</a></li>
-      			  	<li><a href="index.php">English</a></li>
-      			  	<li><a href="index2.php">한국어</a></li>
-      			  	<li><a href="responsive.php">리스폰시브 레이아웃</a></li>
-      			  	<!-- <li><a onmouseover="this.style.cursor='pointer'" rel="tooltip" data-placement="top" title="In Progress">Go Responsive</a></li> -->
-      			</ul>
-      		</div>
-
-	  		<!-- SNS Links -->
-      		<div id="sns_icons">
-      			<ul id="sns_icons_box">
-      				<li><a class="facebook" href="#"><i class="icon-facebook-sign"></i></a></li>
-      				<li><a class="twitter" href="#"><i class="icon-twitter-sign"></i></a></li>
-      				<li><a class="vimeo" href="#"><i class="icon-vimeo-sign"></i></a></li>
-      				<li><a class="feed" href="#"><i class="icon-rss"></i></a></li>
-				</ul>
-			</div>
-
-		  <div id="copyright_box">
-	          <p id="copyright">&copy; <?php echo date("Y") ?> Stacks</p>
-	          <p id="maker">Redfrost Design</p>
-      	  </div>
-          
-          <p id="to_top"><a href="#"><i class="icon-arrow-up"></i> Back To Top</a></p>
-          
-          </section>
-        </footer><!-- /#footer -->
-        
-        
-	</div><!-- /#master-wrap-->
-	
-	
-	
-	
-	
-	    <!-- Modal Popup Contact Form - Replace this with your own form -->
-	    <?php include("section/contact-form.php"); ?>
-			
-	
-	
-		<!-- Scripts -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/jquery-1.9.1.min.js"><\/script>')</script>
-        <script src="js/script.js"></script>
-        <script src="js/custom.js"></script>
-        <script src="js/smooth-scroll.min.js"></script><!-- Smooth Scroll -->
-		<script src="js/wufoo.js"></script><!-- Form control -->        
-        
-
-		<!-- Analytics -->
-        <script>
-            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-            s.parentNode.insertBefore(g,s)}(document,'script'));
-        </script>
-        
-    </body>
-</html>
+        <?php include("section/footer.php"); ?>

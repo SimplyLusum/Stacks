@@ -60,10 +60,12 @@ img { max-width: 100%; height:auto; -ms-interpolation-mode: bicubic; }
 ::-moz-selection { background: #ff5e99; color: #FFFFFF; }
 
 
-/* Text Position */
+/* Position */
+.left { float: left; } 
+.right { float: right; } 
 .text-left   { text-align: left; }
 .text-right  { text-align: right; }
-.text-center { text-align: center; }
+.text-center, .text-centre { text-align: center; }
 .hide        { display: none; }
 .highlight   { background: #ff0; }
 div { word-wrap:break-word;}
@@ -173,7 +175,7 @@ body {
 
 
 /* Fast  Fade Animation */
-.animation-fast, .brand, a, .fade_hover  { 
+.animation-fast, .brand, .fade_hover, .nav li a, #footer li a  { 
   -webkit-transition: all 200ms ease;
 	 -moz-transition: all 200ms ease;
 	  -ms-transition: all 200ms ease;
@@ -202,8 +204,8 @@ body, p, h1, h2, h3, h4, h5, h6, .btn, .navbar, .brand {
 
 /* Font Size */
 body { font-size: 18px; font-size: 1.13rem; }
-h1 { font-size: 38px; font-size: 2.38rem; font-weight: bold; }
-h2 { font-size: 32px; font-size: 2.00rem; font-weight: bold; }
+h1 { font-size: 48px; font-size: 3rem; font-weight: bold; }
+h2 { font-size: 38px; font-size: 2.38rem; font-weight: bold; }
 h3 { font-size: 24px; font-size: 1.5rem; font-weight: bold; }
 h4 { font-size: 18px; font-size: 1.13rem; font-weight: bold; }
 h5 { font-size: 14px; font-size: 0.88rem; font-weight: normal; color: #888; }
@@ -233,6 +235,8 @@ blockquote p {
     padding: 20px 0;
 }
 
+.light { font-weight: 300; }
+.lighter { font-weight: 100; }
 
 
  /* Additional Font Style */
@@ -358,11 +362,11 @@ font-family: 'Proxima';
     padding: 20px 20px;
 }
 .navbar-fixed-top {
-    opacity: 0.98;
+    opacity: 0.96;
     top: 0;
 }
 .navbar .nav > li > a {
-    color: #777777;
+    color: #888;
     float: none;
     margin: 0 5px;
     padding: 8px 10px;
@@ -380,11 +384,10 @@ font-family: 'Proxima';
 .navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
     background-color: #FFFFFF;
     border-bottom: 4px solid #F6A600;
-    color: #555555;
+    color: #333;
     box-shadow: none;
     text-decoration: none;
 }
-
 
 
 
@@ -402,7 +405,7 @@ section { padding: 14px 0; }
     color: #999999;
     font-size: 24px !important; font-size: 1.5rem !important;
     font-weight: 100;
-    margin: 0px 0 20px;
+    margin: 0px 0 26px;
 }
 
 body { color: #666; }	
@@ -426,7 +429,7 @@ h2, h3, h4 { color: #000000; }
 	}
 
 /* About section */
-#about .icon-ok:before {
+.tick_box .icon-ok:before {
     color: #89C01B;
 }
 .tick_box {
@@ -448,17 +451,18 @@ h2, h3, h4 { color: #000000; }
 }
 
  
-/* Hero Unit */  
 .hero-unit {
     background-color: #37A3D6;
+    background-image: url("../img/home-bg.jpg");
+    background-position: center center;
+    background-size: cover;
     border-radius: 0 0 0 0;
-    box-shadow: 0 0 30px #1C6BBE inset;
+    box-shadow: 0 0 30px #444444 inset;
     color: #FFFFFF;
-    font-weight:;
     line-height: 30px;
     margin-bottom: 30px;
     padding: 60px 0;
-    text-shadow: 1px 2px 4px #666666;
+    text-shadow: 1px 2px 4px #444444;
 }
 
 	/* For Retina Display */
@@ -468,11 +472,13 @@ h2, h3, h4 { color: #000000; }
 	}
 	
 .hero-unit h1 {
-    color: inherit;
+    color: white;
     font-size: 60px;
     letter-spacing: -1px;
     line-height: 1;
     margin-bottom: 12px;
+    margin-top: 160px;
+    letter-spacing: -4px !important;
 }
 	
 .hero-unit p {
@@ -481,7 +487,6 @@ h2, h3, h4 { color: #000000; }
 
 .hero-unit p {
     font-size: 22px;font-size: 1.38rem;
-    font-weight: normal;
     line-height: 26px;line-height: 1.63rem;
 }   
    
@@ -504,7 +509,7 @@ footer {
 		} 
 		
 		#footer_menu_box li a { 
-	        margin-right: 0px !; 
+	        margin-right: 0px !important; 
 	    }
 	}
 
@@ -755,6 +760,7 @@ html { filter: expression(document.execCommand("BackgroundImageCache", false, tr
 	}
 }
 
+
 /* Mobile Only */
 @media (max-device-height: 568px) {
     html, p, #popup_trigger, .modal, .brand strong, .korean p, .hero-unit p {
@@ -843,4 +849,15 @@ html { filter: expression(document.execCommand("BackgroundImageCache", false, tr
     font-size: 0.63rem;
     line-height: 1rem;
 }
+
+/* Pricing */
+.pricelist {
+    text-align: center;
+}
+
+.pricelist.bestseller {
+    transform: scale(1.15);    
+}
+
+
 

@@ -1,11 +1,11 @@
-            <section class="hero-unit jumbotron masthead">
+      	        <section class="hero-unit jumbotron masthead">
             	<div class="container">           
 			      <div class="row-fluid"> 
 			        <div class="span12">  
-	            	<h1>Hello, world!</h1>
-	            	<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Aenean eu leo quam.</p>
-	            	<p><a class="btn btn-info btn-large">Learn more &raquo;</a></p>
+	            	<h1>Simple <span class="lighter">&amp; Intuitive</span></h1>
+	            	<p class="light"><em>Minimalistic Website Theme Created for<br>Creative individuals and Startups</em></p>
+	            	<p><a class="btn btn-info btn-large fancybox video" href="http://player.vimeo.com/video/56860648">Quick Tour &raquo;</a></p>
 	            	</div>    
             	  </div>     
             	</div>    	
-            </section>
+                </section>

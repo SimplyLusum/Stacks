@@ -1,3 +1,10 @@
+### 1.2.3: 25-April-2013
+* Design update
+* Template update
+* Config
+* Automated address & map display
+
+
 ### 1.2.2: 24-April-2013
 * Font-Awsome update 3.0.2
 * Bootstrap update 2.3.1

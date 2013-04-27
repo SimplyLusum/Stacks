@@ -15,20 +15,21 @@
                         <ul class="nav">
 	                        <li class="active"><a href="#home">Home</a></li>
                             <li><a href="#about">About</a></li>
-                            <li><a href="#services">Services</a></li>
-                            <li><a href="#contact">Contact</a></li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                            <li><a href="#services">Services</a></li>                                                                               
+                            <li><a href="#pricing">Pricing</a></li> 
+                            <li><a href="#contact">Contact</a></li>                            
+                            <!-- <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Products <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="#">Menu 01</a></li>
-                                    <li><a href="#">Menu 02</a></li>
-                                    <li><a href="#">Menu 03</a></li>
+                                    <li><a href="#">Category 01</a></li>
+                                    <li><a href="#">Category 02</a></li>
+                                    <li><a href="#">Category 03</a></li>
                                     <li class="divider"></li>
                                     <li class="nav-header">PM Says</li>
                                     <li><a href="#">Hurry Up</a></li>
                                     <li><a href="#">Get Your Work Done</a></li>
                                 </ul>
-                            </li>
+                            </li> --> 
                         </ul>
                         
                         <!-- Form 
