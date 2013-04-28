@@ -1,3 +1,10 @@
+### 1.3: 28-April-2013
+* Carousel
+* Slidingbox
+* Pricing
+* Gallery (Portfolio)
+
+
 ### 1.2.3: 25-April-2013
 * Design update
 * Template update
