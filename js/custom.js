@@ -29,8 +29,8 @@ $('[data-spy="scroll"]').scrollspy({ offset: 100 });
 
 // Carousel	Auto
 		jQuery(document).ready(function() {
-			 $('#myCarousel-auto').carousel({
-				   interval: 5000,
+			 $('#myCarousel.slide').carousel({
+				   interval: 6000,
 					  cycle: true
 			 });
 		});

@@ -712,7 +712,7 @@ footer a:hover {
 
 /* Carousel Control */
 .carousel-control {
-    top: 50%;
+    top: 45%;
     font-size: 48px;
     -webkit-transition: all 250ms ease;
 	 -moz-transition: all 250ms ease;
@@ -730,8 +730,8 @@ footer a:hover {
 	   -o-transition: all 250ms ease;
 	      transition: all 250ms ease; }/* hardware acceleration will cause Bootstrap carousel controlbox margin error in webkit browsers */
     #myCarousel:hover .control-box { opacity: 1; }
-    .carousel-control.left { left: 0; }
-    .carousel-control.right { right: 0; }
+    .carousel-control.left { left: 0; background-image: none;}
+    .carousel-control.right { right: 0; background-image: none; }
     #myCarousel:hover .carousel-control.left { left: 15px; }
     #myCarousel:hover .carousel-control.right { right: 15px; }    
 }
@@ -760,6 +760,11 @@ html { filter: expression(document.execCommand("BackgroundImageCache", false, tr
 /* =============================================================================
    13. ADDITIONAL STYLE
    ============================================================================= */
+
+.row-fluid {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
 
 .dropcap {
     color: #000000;
@@ -879,9 +884,20 @@ html { filter: expression(document.execCommand("BackgroundImageCache", false, tr
     text-align: center;
 }
 
-.pricelist.bestseller {
-    transform: scale(1.15);    
+.pricelist.bestseller {  
+-webkit-transform: scale(1.15);
+   -moz-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+     -o-transform: scale(1.15);        
+        transform: scale(1.15);
+     -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=1.15, M12=0, M21=0, M22=1.15, SizingMethod='auto expand')";
+
+   /* IE6 and 7 */ 
+   filter: progid:DXImageTransform.Microsoft.Matrix(
+            M11=1.15,
+            M12=0,
+            M21=0,
+            M22=1.15,
+        SizingMethod='auto expand');
 }
-
-
 

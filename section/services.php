@@ -1,4 +1,15 @@
             <section id="services">
+            
+            <div class="row-fluid">
+                <div class="span12">
+                <h1 class="light text-centre">Services</h1>
+				<p class="byline text-centre">Pellentesque ornare sem</p>
+					
+					<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>		
+            
+                </div>            
+            </div>
+            
 			<div class="row-fluid">            
                 <div class="span4">
                     <img src="img/image_02.jpg" alt="" />
